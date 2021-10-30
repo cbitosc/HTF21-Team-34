@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/icon.png">
+    <link rel="JS" href="./server/final.js">
+    <title>Score</title>
+    <style>
+        button {
+            display: block;
+            width: 400px;
+            height: 40px;
+            margin: auto;
+            margin-top: 30px;
+            font-size: 25px;
+        }
+        button :hover {
+             background-color: grey;
+        }
+        .result {
+            width: 515px;
+            margin: auto;
+            margin-top: 160px;
+        } 
+        h2 {
+            font-size: 45px;
+            margin-left: 125px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 25px;
+            margin-top: 105px;
+            width: 570px;
+        }
+    </style>
+</head>
+<body>
+    <div class="result">
+        <h2>Your Score Is 4</h2>
+
+        <p id ="demo">THANK YOU!</p>
+      <script>
+          let m = Math.floor((Math.random()*5) + 1);
+          document.getElementById("ans").innerHTML = m;
+      </script>
+        <button type="button"><a href="./subjects.html">Return!</a></button>
+    </div>
+</body>
+</html>

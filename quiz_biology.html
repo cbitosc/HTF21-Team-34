@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charsert="UTF-8">
+        <title>Biology Quiz</title>
+        <link rel="icon" href="Images/icon.png">
+        <link rel="Js" href="timer.js">
+        <style>
+            .line {
+                  border-style: dotted;
+                  height: 0;
+                  border-color: rgb(160, 158, 158);
+                  display: block;
+                  margin: auto;
+                  border-top-width: 8px;
+                  border-left-width: 0px;
+                  padding-bottom: 0px;
+                  border-right-width: 0px;
+                  border-bottom-width: 0px;
+                  width: 72px;
+                  background-color: none;
+                  margin-top: 30px;
+                  margin-bottom: 30px;
+                  }
+           
+            #div1{
+            width: 480px;
+            height: 280px;
+            display: block;
+            padding: 10px;
+            margin: auto;
+            background-color:white;
+            padding-left: 35px;
+            
+          }
+          input[type=radio] {
+            width: 20px;
+            height: 20px;}
+        .heading {
+            width: 300px;
+            display: block;
+            margin: auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-size: 50px;
+        }
+          h2{
+              font-style:italic;
+          }
+          .timer {
+              display: block;
+              width: 80px;
+              font-size: 25px;
+              margin: auto;
+          }
+          button {
+            display: block;
+            width: 400px;
+            height: 50px;
+            margin: auto;
+            margin-top: 30px;
+            font-size: 25px;
+        }
+         button :hover {
+             background-color: grey;
+         }
+
+        </style>
+        </head>
+        
+        <h1 class="heading">Biology Quiz!</h1>
+        
+    <body style="background-color:WhiteSmoke;">
+        <div id="div1" >
+            <p><b><h2>The theory of spontaneous generation stated that</h2></b> </p>
+           
+            <input type="radio" id="1" name="first" value="HTML">
+            <label for="html" style="font-size: 25px;">life arose from living forms only</label><br>
+            <input type="radio" id="2" name="first" value="HTML">
+            <label for="html" style="font-size: 25px;">life can arise from both living and non-living</label><br>
+            <input type="radio" id="3" name="first" value="HTML">
+            <label for="html" style="font-size: 25px;">life can arise from non-living things only</label><br>
+            <input type="radio" id="4" name="first" value="HTML">
+            <label for="html" style="font-size: 25px;">life arises spontaneusly, neither from living nor from the non-living</label><br>
+            <script type="text/javascript">
+                function a(){
+                    window.marks=0;
+                    b();
+                }
+            </script>
+            <script type="text/javascript">
+                function b(){
+                    if (document.getElementById('3').checked) {
+                        window.marks+=1;
+                    }
+                    c();
+                }
+            </script>
+        </div>
+        <button class="line"></button>
+        <div id="div1">
+            <p><b><i><h2>Animal husbandry and plant breeding programmes are the examples of</h2> </i></b> </p>
+            
+            
+            <input type="radio" id="5" name="second" value="HTML">
+            <label for="html" style="font-size: 25px;">reverse evolution</label><br>
+            <input type="radio" id="6" name="second" value="HTML">
+            <label for="html" style="font-size: 25px;">aritifical selection</label><br>
+            <input type="radio" id="7" name="second" value="HTML">
+            <label for="html" style="font-size: 25px;">mutation</label><br>
+            <input type="radio" id="8" name="second" value="HTML">
+            <label for="html" style="font-size: 25px;">natural selection</label><br>
+            <script type="text/javascript">
+                function c(){
+                    if (document.getElementById('8').checked) {
+                        window.marks+=1;
+                    }
+                    d();
+                }
+            </script>
+        </div>
+       <button class="line"></button>
+        <div id="div1">
+            <p><b><i><h2>Palaentological evidences for evolutaion refer to the</h2> </i></b> </p>
+            
+            
+            <input type="radio" id="9" name="third" value="HTML">
+            <label for="html" style="font-size: 25px;">development of embryo</label><br>
+            <input type="radio" id="10" name="third" value="HTML">
+            <label for="html" style="font-size: 25px;">homologous organs</label><br>
+            <input type="radio" id="11" name="third" value="HTML">
+            <label for="html" style="font-size: 25px;">fossils</label><br>
+            <input type="radio" id="12" name="third" value="HTML">
+            <label for="html" style="font-size: 25px;">analogous organs</label><br>
+            <script type="text/javascript">
+                function d(){
+                    if (document.getElementById('11').checked) {
+                        window.marks+=1;
+                    }
+                    e();
+                }
+            </script>
+        </div>
+        <button class="line"></button>
+        <div id="div1">
+            <p><b><i><h2>The bones of forelimbs of whale, bat, cheeah and man are similar in structure, because</h2> </i></b> </p>
+            
+            
+            <input type="radio" id="13" name="fourth" value="HTML">
+            <label for="html" style="font-size: 25px;">one organism has given rise to another</label><br>
+            <input type="radio" id="14" name="fourth" value="HTML">
+            <label for="html" style="font-size: 25px;">they share a common ancestor</label><br>
+            <input type="radio" id="15" name="fourth" value="HTML">
+            <label for="html" style="font-size: 25px;">they perform the same function.</label><br>
+            <input type="radio" id="16" name="fourth" value="HTML">
+            <label for="html" style="font-size: 25px;">the have biochemical similarities.</label><br>
+            <script type="text/javascript">
+                function e(){
+                    if (document.getElementById('14').checked) {
+                        window.marks+=1;
+                    }
+                    f();
+                }
+            </script>
+        </div>
+       <button class="line"></button>
+        <div id="div1">
+            <p><b><i><h2>Analogous organs arise due to</h2> </i></b> </p>
+            
+            
+            <input type="radio" id="17" name="fifth" value="HTML">
+            <label for="html" style="font-size: 25px;">divergent evolution</label><br>
+            <input type="radio" id="18" name="fifth" value="HTML">
+            <label for="html" style="font-size: 25px;">artificial selection</label><br>
+            <input type="radio" id="19" name="fifth" value="HTML">
+            <label for="html" style="font-size: 25px;">genetic drift</label><br>
+            <input type="radio" id="20" name="fifth" value="HTML">
+            <label for="html" style="font-size: 25px;"> convergent evolution</label><br>
+            <script type="text/javascript">
+                function f(){
+                    if (document.getElementById('20').checked) {
+                        window.marks+=1;
+                    }
+                }
+            </script>
+        </div>
+        <button onclick="a()">
+            <a href="result.html" style="text-decoration: none;">Submit</a>
+        </button>
+    </body>
+</html>
