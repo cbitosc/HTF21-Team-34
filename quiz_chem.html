@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charsert="UTF-8">
+        <title>Chemistry Quiz</title>
+        <link rel="icon" href="Images/icon.png">
+        <style>
+
+                .line {
+                  border-style: dotted;
+                  height: 0;
+                  border-color: rgb(160, 158, 158);
+                  display: block;
+                  margin: auto;
+                  border-top-width: 8px;
+                  border-left-width: 0px;
+                  padding-bottom: 0px;
+                  border-right-width: 0px;
+                  border-bottom-width: 0px;
+                  width: 72px;
+                  background-color: none;
+                  margin-top: 30px;
+                  margin-bottom: 30px;
+                  }
+           
+            #div1{
+            width: 450px;
+            height: 280px;
+            display: block;
+            padding: 10px;
+            margin: auto;
+            background-color:white;
+            padding-left: 35px;
+            
+          }
+          input[type=radio] {
+            width: 20px;
+            height: 20px;}
+        .heading {
+            width: 370px;
+            display: block;
+            margin: auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-size: 50px;
+        }
+          h2{
+              font-style:italic;
+          }
+          
+        button {
+            display: block;
+            width: 400px;
+            height: 50px;
+            margin: auto;
+            margin-top: 30px;
+            font-size: 25px;
+        }
+         button :hover {
+             background-color: grey;
+         }
+
+        </style>
+        </head>
+        <h1 class="heading">Chemistry Quiz!</h1>
+    <body style="background-color:WhiteSmoke;">
+
+        <div id="div1">
+            <p><b><h2>Which element in the periodic table was named in honour of physicist Albert Einstein?</h2></b> </p>
+            <input type="radio" id="1" name="q1" value="1">
+            <label for="html" style="font-size: 25px;">Albertium</label><br>
+            <input type="radio" id="2" name="q1" value="2">
+            <label for="html" style="font-size: 25px;">Relativium</label><br>
+            <input type="radio" id="3" name="q1" value="3">
+            <label for="html" style="font-size: 25px;">Physicsium</label><br>
+            <input type="radio" id="4" name="q1" value="4">
+            <label for="html" style="font-size: 25px;">Einsteinium</label><br>
+            <script type="text/javascript">
+                function a(){
+                    window.marks=0;
+                    b();
+                }
+            </script>
+            <script type="text/javascript">
+                function b(){
+                    if (document.getElementById('4').checked) {
+                        window.marks+=1;
+                    }
+                    c();
+                }
+            </script>
+        </div>
+        <button class="line"></button>
+        <div id="div1">
+            <p><b><i><h2>Which of the following is the newest element to be discovered and synthesised? </h2> </i></b> </p>
+            <input type="radio" id="5" name="q2" value="4">
+            <label for="html" style="font-size: 25px;">Flerovium(114)</label><br>
+            <input type="radio" id="6" name="q2" value="6">
+            <label for="html" style="font-size: 25px;">Ununpentium(115)</label><br>
+            <input type="radio" id="7" name="q2" value="7">
+            <label for="html" style="font-size: 25px;">Livermorium(116)</label><br>
+            <input type="radio" id="8" name="q2" value="8">
+            <label for="html" style="font-size: 25px;">Ununseptium(117)</label><br>
+            <script type="text/javascript">
+                function c(){
+                    if (document.getElementById('8').checked) {
+                        window.marks+=1;
+                    }
+                    d();
+                }
+            </script>
+        </div>
+        <button class="line"></button>
+        <div id="div1">
+            <p><b><i><h2>Which of the following is a noble gas?</h2> </i></b> </p>
+            <input type="radio" id="9" name="q3" value="9">
+            <label for="html" style="font-size: 25px;">Nitrogen</label><br>
+            <input type="radio" id="10" name="q3" value="10">
+            <label for="html" style="font-size: 25px;">Oxygen</label><br>
+            <input type="radio" id="11" name="q3" value="4">
+            <label for="html" style="font-size: 25px;">Argon</label><br>
+            <input type="radio" id="12" name="q3" value="12">
+            <label for="html" style="font-size: 25px;">Carbondioxide</label><br>
+            <script type="text/javascript">
+                function d(){
+                    if (document.getElementById('11').checked) {
+                        window.marks+=1;
+                    }
+                    e();
+                }
+            </script>
+        </div>
+        <button class="line"></button>
+        <div id="div1">
+            <p><b><i><h2>Which of the following has the highest pH vlaue?</h2> </i></b> </p>
+            <input type="radio" id="13" name="q4" value="13">
+            <label for="html" style="font-size: 25px;">Lime juice</label><br>
+            <input type="radio" id="14" name="q4" value="14">
+            <label for="html" style="font-size: 25px;">Wine</label><br>
+            <input type="radio" id="15" name="q4" value="15">
+            <label for="html" style="font-size: 25px;">Water</label><br>
+            <input type="radio" id="16" name="q4" value="4">
+            <label for="html" style="font-size: 25px;">Caustic soda</label><br>
+            <script type="text/javascript">
+                function e(){
+                    if (document.getElementById('16').checked) {
+                        window.marks+=1;
+                    }
+                    f();
+                }
+            </script>
+        </div>
+        <button class="line"></button>
+        <div id="div1">
+            <p><b><i><h2>What kind of element would you find on the far left-hand side of the periodic table?</h2> </i></b> </p>
+            <input type="radio" id="17" name="q5" value="4">
+            <label for="html" style="font-size: 25px;">A metal</label><br>
+            <input type="radio" id="18" name="q5" value="18">
+            <label for="html" style="font-size: 25px;">A halogen</label><br>
+            <input type="radio" id="19" name="q5" value="19">
+            <label for="html" style="font-size: 25px;">A gas</label><br>
+            <input type="radio" id="20" name="q5" value="20">
+            <label for="html" style="font-size: 25px;">A negative ion</label><br>
+            <script type="text/javascript">
+                function f(){
+                    if (document.getElementById('17').checked) {
+                        window.marks+=1;
+                    }
+                    return window.marks;
+                }
+                document.getElementById("ans").innerHTML = window.marks;
+            </script>
+        </div>
+        <button onclick="a()">
+            <a style="text-decoration: none;">Submit</a>
+        </button>
+    </body>          
+</html>
